@@ -1,0 +1,82 @@
+[
+  {
+    "PlayerName": "Virat Kohli",
+    "PlayerCountry": "India",
+    "PlayerType": "Batsman",
+    "Rating": 92,
+    "BattingStyle": "Right-hand bat",
+    "BowlingStyle": "Right-arm medium",
+    "Price": 1500000,
+    "PlayerImage": "https://example.com/images/virat-kohli.jpg"
+  },
+  {
+    "PlayerName": "Babar Azam",
+    "PlayerCountry": "Pakistan",
+    "PlayerType": "Batsman",
+    "Rating": 90,
+    "BattingStyle": "Right-hand bat",
+    "BowlingStyle": "Right-arm offbreak",
+    "Price": 1400000,
+    "PlayerImage": "https://example.com/images/babar-azam.jpg"
+  },
+  {
+    "PlayerName": "Joe Root",
+    "PlayerCountry": "England",
+    "PlayerType": "Batsman",
+    "Rating": 88,
+    "BattingStyle": "Right-hand bat",
+    "BowlingStyle": "Right-arm offbreak",
+    "Price": 1300000,
+    "PlayerImage": "https://example.com/images/joe-root.jpg"
+  },
+  {
+    "PlayerName": "Kane Williamson",
+    "PlayerCountry": "New Zealand",
+    "PlayerType": "Batsman",
+    "Rating": 89,
+    "BattingStyle": "Right-hand bat",
+    "BowlingStyle": "Right-arm offbreak",
+    "Price": 1350000,
+    "PlayerImage": "https://example.com/images/kane-williamson.jpg"
+  },
+  {
+    "PlayerName": "Ben Stokes",
+    "PlayerCountry": "England",
+    "PlayerType": "All-rounder",
+    "Rating": 91,
+    "BattingStyle": "Left-hand bat",
+    "BowlingStyle": "Right-arm fast-medium",
+    "Price": 1450000,
+    "PlayerImage": "https://example.com/images/ben-stokes.jpg"
+  },
+  {
+    "PlayerName": "Shakib Al Hasan",
+    "PlayerCountry": "Bangladesh",
+    "PlayerType": "All-rounder",
+    "Rating": 90,
+    "BattingStyle": "Left-hand bat",
+    "BowlingStyle": "Left-arm orthodox",
+    "Price": 1200000,
+    "PlayerImage": "https://example.com/images/shakib-al-hasan.jpg"
+  },
+  {
+    "PlayerName": "Jasprit Bumrah",
+    "PlayerCountry": "India",
+    "PlayerType": "Bowler",
+    "Rating": 93,
+    "BattingStyle": "Right-hand bat",
+    "BowlingStyle": "Right-arm fast",
+    "Price": 1400000,
+    "PlayerImage": "https://example.com/images/jasprit-bumrah.jpg"
+  },
+  {
+    "PlayerName": "Mitchell Starc",
+    "PlayerCountry": "Australia",
+    "PlayerType": "Bowler",
+    "Rating": 91,
+    "BattingStyle": "Left-hand bat",
+    "BowlingStyle": "Left-arm fast",
+    "Price": 1350000,
+    "PlayerImage": "https://example.com/images/mitchell-starc.jpg"
+  }
+]
