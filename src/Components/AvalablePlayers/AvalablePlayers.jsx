@@ -2,7 +2,7 @@ import React from "react";
 import { FaFlag, FaUser } from "react-icons/fa";
 
 const AvalablePlayers = ({ players }) => {
-  console.log(players);
+  // console.log(players);
   return (
     <div>
         <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4">
