@@ -2,6 +2,7 @@ import React, { Suspense, useState } from 'react';
 import Navber from './Components/Navber/Navber';
 import Banner from './Components/Banner/Banner';
 import Player from './Components/Player/Player';
+import { ToastContainer } from 'react-toastify';
 
 const featchPlayer = async() => {
 
@@ -23,6 +24,7 @@ const App = () => {
       <Suspense fallback={<span className="loading loading-ring loading-xl"></span>}>
       <Player playerPromise = {playerPromise} setCoin = {setCoin} coin = {coin}/>
       </Suspense>
+      <ToastContainer />
     </div>
   );
 };

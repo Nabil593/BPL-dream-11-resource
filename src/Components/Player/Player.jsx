@@ -7,6 +7,9 @@ const Player = ({ playerPromise, setCoin, coin }) => {
 
   const [selected, setSelected] = useState("available");
 
+  const [selectedPlayers, setSelectedPlayers] = useState([]);
+  
+
   // console.log(selected)
 
   return (
@@ -15,8 +18,9 @@ const Player = ({ playerPromise, setCoin, coin }) => {
         {selected === "available" ? (
           <h2>Avalable Players</h2>
         ) : (
-          <h2>Selected Players</h2>
+          <h2>Selected Players ({selectedPlayers.length}/{players.length})</h2>
         )}
+
         <div>
           <button
             onClick={() => setSelected("available")}
@@ -28,15 +32,15 @@ const Player = ({ playerPromise, setCoin, coin }) => {
             onClick={() => setSelected("selected")}
             className={`btn ${selected === "selected" ? "bg-[#E7FE29]" : "bg-none"} rounded-l-none`}
           >
-            Selected
+            Selected ({selectedPlayers.length})
           </button>
         </div>
       </div>
 
       {selected === "available" ? (
-        <AvalablePlayers players={players} setCoin = {setCoin} coin = {coin}/>
+        <AvalablePlayers players={players} setCoin = {setCoin} coin = {coin} selectedPlayers = {selectedPlayers} setSelectedPlayers = {setSelectedPlayers}/>
       ) : (
-        <SelectedPlayers />
+        <SelectedPlayers selectedPlayers = {selectedPlayers} setSelectedPlayers = {setSelectedPlayers} setCoin = {setCoin} coin = {coin}/>
       )}
     </div>
   );
